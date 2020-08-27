@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Perfume 產品列表</title>
+    <meta name='description' content='Perfume E-commerce Website'/>
+    <link rel="stylesheet" href="../scss/all.css">
+</head>
+<body>
+    <!-- layout header -->
+    <div class="header container">
+        <nav class="navbar navbar-expand-md px-0">
+            <h1 class="mb-0 navbar-brand">
+                <a class="d-block logo text-hide" href="index.html">D'Perfume</a>
+            </h1>
+            <div class="shoppingCart ml-auto d-md-none">
+                <a href="#" class="nav-link text-dark font-size-20 position-relative">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge badge-pill badge-primary">3</span>
+                </a>          
+            </div>
+            <button type="button" class="btn navbar-toggler" data-target="#navbarContent" data-toggle="collapse">
+                <i class="fas fa-bars text-dark"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav align-items-center font-size-20">
+                    <li>                
+                        <a href="productList.html" class="text-dark nav-link">
+                            <i class="fas fa-tshirt d-none d-md-inline-block"></i>
+                            Product</a>
+                    </li>
+                    <li>                
+                        <a href="login.html" class="text-dark nav-link">
+                            <i class="fas fa-user d-none d-md-inline-block"></i>
+                            Log in</a>
+                    </li>
+                    <li>                
+                        <a href="#" class="text-dark nav-link">
+                            <i class="fas fa-heart d-none d-md-inline-block"></i>
+                            Wishlist</a>
+                    </li>
+                    <li>               
+                        <a href="#" class="text-dark nav-link pr-0">
+                            <i class="fas fa-shopping-cart d-none d-md-inline-block"></i>
+                            Cart(3)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div> 
+    <div class="collapse navbar-collapse d-md-none" id="navbarContent">
+        <ul class="navbar-nav font-size-20 bg-dark container-fluid pr-0">
+            <li class="border-bottom">                
+                <a href="productList.html" class="nav-link text-white text-center py-3">Product</a>
+            </li>
+            <li class="border-bottom">                
+                <a href="#" class="nav-link text-white text-center py-3">Wishlist</a>
+            </li>
+            <li class="border-bottom">
+                <a href="#" class="nav-link text-white text-center py-3">Blog</a>
+            </li>
+            <li class="border-bottom">
+                <a href="#" class="nav-link text-white text-center py-3">Contact</a>
+            </li>
+            <li>                
+                <a href="login.html" class="nav-link text-white text-center py-3">Log in</a>
+            </li>
+        </ul>
+    </div>
+    <!-- content starts -->
+    <!-- productCategories -->
+    <div class="productCategories container-fluid bg-primary d-none d-md-block">
+        <ul class="container nav mb-0">
+            <li>
+                <a href="#" class="nav-link text-white font-size-20 py-14px">CHANEL</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white font-size-20 py-14px">Jo Malone</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white font-size-20 py-14px">Curology</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white font-size-20 py-14px">Dior</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white font-size-20 py-14px">Chloe</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white font-size-20 py-14px">ZARA</a>
+            </li>
+        </ul>
+    </div>
+    <!-- productListMain -->
+    <div class="productListMain container mb-40px mb-lg-60px">
+        <ul class="row list-unstyled mb-0 mb-lg-3">
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1519669011783-4eaa95fa1b7d.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1530630458144-014709e10016-1.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1566977776052-6e61e35bf9be.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380</p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1578996834254-13d1b661a5ed.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380</p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1582211594533-268f4f1edcb9.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="productPage.html" class="d-block mb-1"><img src="../img/photo-1585120040315-2241b774ad0f.png" alt="CHANEL N°5" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">CHANEL N°5</h3>
+                <p class="mb-1">CHANEL</p>
+                <p class="mb-0">NT$4,980<del class="text-dark ml-2">NT$5,980</del></p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1592842414746-a2fd2101381f.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380</p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1544468266-6a8948003cd7.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380</p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1584435731369-1e74c4e9385e.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1592247691114-69a06342531a.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380<del class="text-dark ml-2">NT$1,580</del></p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1559264729-91549dddfc45.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380</p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+            <li class="col-6 col-md-4 col-lg-3 mb-32px mb-md-40px mb-lg-60px">
+                <a href="#" class="d-block mb-1"><img src="../img/photo-1594913366159-1832cfbe7ca1.png" alt="Poppy & Barley" class="img-fluid rounded-top"></a>
+                <h3 class="productTitle mb-0">Poppy & Barley</h3>
+                <p class="mb-1">Jo Malone</p>
+                <p class="mb-0">NT$1,380</p>
+                <div class="iconLink">
+                    <button type="button" data-toggle="modal" data-target="#add-to-heart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-heart"></i>                      
+                    </button>
+                    <button type="button" data-toggle="modal" data-target="#add-to-cart" class="iconBtn btn btn-link pl-0 pt-0">
+                        <i class="fas fa-shopping-cart"></i>                  
+                    </button>                    
+                </div>                           
+            </li>
+        </ul>
+        <!-- productListPagination -->
+        <nav aria-label="Search results pages">
+            <ul class="pagination justify-content-center">
+                <li class="page-item active"><a class="page-link font-size-20" href="#">1</a></li>
+                <li class="page-item"><a class="page-link font-size-20" href="#">2</a></li>
+                <li class="page-item"><a class="page-link font-size-20" href="#">3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="add-to-heart">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <p class="font-size-20 text-primary text-center font-weight-bold py-3 mb-0">已加入我的收藏</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="add-to-cart">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <p class="font-size-20 text-primary text-center font-weight-bold py-3 mb-0">已加入購物車</p>
+            </div>
+        </div>
+    </div>
+    <!-- subscription -->
+    <div class="subscription container-fluid d-flex align-items-center">
+            <div class="container pt-3">
+                <div class="row">                   
+                    <form action="index.html" class="col-12 col-md-6 col-lg-5 col-xl-4">
+                        <label for="subscribeEmail" class="font-weight-bold font-size-32 mb-20px">記得<br>訂閱以獲取更多資訊！</label>
+                        <div class="input-group">
+                            <input type="text" id="subscribeEmail" name="subscribeEmail" class="form-control border-primary py-3 h-100" placeholder="Your email address">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary px-4">Subscribe</button>
+                            </div>                            
+                        </div>
+                    </form>                    
+                </div>
+            </div>
+    </div>    
+    <!--content ends -->
+    <!-- layout footer -->
+    <div class="footer bg-primary py-20px">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.html">
+                <img src="../img/d’Perfumew@2x.png" class="img-fluid" alt="D'Perfume">
+            </a>
+            <p class="copyright text-white font-size-14 pl-20px mr-md-auto my-0">© 2020. All Rights Reserved.</p>
+            <ul class="nav font-size-20 d-none d-md-flex">
+                <li>
+                    <a href="productList.html" class="text-white nav-link">Product</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white nav-link pr-0">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

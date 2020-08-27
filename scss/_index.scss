@@ -1,0 +1,68 @@
+.banner{
+    height: 870px;
+    background-image: url(../img/photo-1588159343745-445ae0b16383.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    @include media-breakpoint-down(md){
+        height: 480px;
+    }
+    &Btn{
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+    }
+}
+.instruction{
+    &Img{
+        @include media-breakpoint-only(md){
+            background-image: url(../img/photo-1542038382126-77ae2819338d.png);
+            background-size: cover;
+        }
+    }
+    &Btn{
+        border: 2px solid $dark;
+        @include media-breakpoint-up(lg){
+            padding-top: 18px;
+            padding-bottom: 18px;
+        }
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}
+.productStatus{
+    li{
+        &:hover{
+            color: $primary;
+        }
+    }
+    .soldOut{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+.recycle{
+    &Img{
+        @include media-breakpoint-only(md){
+            background-image: url(../img/photo-1594913615593-e4b8c44625be.png);
+            background-size: cover;
+        }
+    }
+}
+.subscription{
+    background-image: url(../img/photo-1532413992378-f169ac26fff0.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 48%;
+    label{
+        @include media-breakpoint-down(sm){
+            font-size: $font-size-base * 1.5;
+        }
+    }
+}
