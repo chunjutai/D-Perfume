@@ -3,6 +3,15 @@
     @include  media-breakpoint-down(md){
         padding-top: 40px;
     }
+    .productListImg:hover{
+        img{
+            transform: scale(1.1);
+            transition: all 0.2s ease-out;
+        }
+    }
+    .productListImg{
+        overflow: hidden;
+    }
 }
 .productTitle{
     @include  media-breakpoint-down(md){

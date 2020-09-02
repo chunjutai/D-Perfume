@@ -32,10 +32,9 @@
     }
 }
 .productStatus{
-    li{
-        &:hover{
-            color: $primary;
-        }
+    li:hover{      
+        transform: translateY(-5px);
+        transition: all 0.2s ease-out;
     }
     .soldOut{
         position: absolute;

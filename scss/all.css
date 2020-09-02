@@ -12716,7 +12716,10 @@ label {
 }
 
 .productStatus li:hover {
-  color: #916000;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .productStatus .soldOut {
@@ -12774,6 +12777,17 @@ label {
   .productListMain {
     padding-top: 40px;
   }
+}
+
+.productListMain .productListImg:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.productListMain .productListImg {
+  overflow: hidden;
 }
 
 @media (max-width: 991.98px) {
